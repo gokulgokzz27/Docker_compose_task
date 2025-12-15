@@ -9,7 +9,7 @@ COPY index.html /usr/share/nginx/html/
 
 
 #Expose port
-EXPOSE 80  #Expose port
+EXPOSE 80  
 
 #Cmd
 CMD ["nginx", "-g", "daemon off;"]
