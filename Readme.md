@@ -14,7 +14,7 @@ docker-compose up --build
 
 If the project is running inside a **Linux Virtual Machine (Azure / cloud VM)**, then **localhost will NOT work**.
 
-In this case, replace `"http://52.140.91.149:5000` with the **public IP address of the VM** in index.html
+In this case, replace `http://52.140.91.149:5000` with the **public IP address of the VM** in index.html
 
 Example:
 http://<VM_PUBLIC_IP>:3000
